@@ -1,0 +1,31 @@
+{
+  "cmake.configureOnOpen": false,
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.renderControlCharacters": true,
+  // white vertical lines in editor
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.tabSize": 4,
+  },
+  "files.associations": {
+    "*.repos": "yaml",
+    "*.world": "xml",
+    "*.xacro": "xml"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.scrollback": 1000000,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "ros.distro": "foxy",
+  "colcon.provideTasks": true,
+  "files.autoSave": "afterDelay",
+  "editor.detectIndentation": false,
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/foxy/lib/python3.8/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/opt/ros/foxy/lib/python3.8/site-packages"
+  ],
+}
